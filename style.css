@@ -1,0 +1,40 @@
+/*
+ Theme Name:   ample-child
+ Description:  Thème enfant de l'Access Code School
+ Author:       Nicolas, Charlotte, Sebastian, Julien
+ Template:     ample
+*/
+
+.main-navigation ul.menu>li.current-menu-item, .main-navigation ul.menu>li.current-menu-ancestor, .main-navigation .menu>ul>li.current_page_item, .main-navigation .menu>ul>li.current_page_ancestor, .main-navigation ul.menu>li:hover, .main-navigation ul.menu>li.focus, .main-navigation .menu>ul>li:hover, .main-navigation .menu>ul>li.focus .menu-home {
+    border-top: 2px solid #cf5f42;
+}
+
+.main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current-menu-item a:after, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current-menu-ancestor a:after, .main-navigation ul li.current_page_item a:after, .main-navigation ul li.current_page_item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current_page_ancestor a:after, .main-navigation ul li:hover>a, .main-navigation ul li.focus>a, .main-navigation li.menu-item-has-children:hover>a:after, .main-navigation li.page_item_has_children:hover>a:after, .main-navigation ul li.focus.menu-item-has-children>a:after, .main-navigation ul li.focus.page_item_has_children>a:after, .main-navigation ul.menu li.current-menu-ancestor ul li.current-menu-item>a {
+    color: #cf5f42;
+}
+
+.slide-prev, .slide-next {
+    background-color: #cf5f42;
+}
+
+#header-left-section {
+    margin-bottom: 40px;
+}
+
+#site-title a:hover {
+    padding-top: 4px;
+    color: #cf5f42;
+}
+
+#site-title {
+    padding-top: 4px;
+    color: #cf5f42;
+}
+
+.fa.search-top {
+    color: #cf5f42;
+}
+
+.main-navigation ul li ul li a:hover, .main-navigation ul li ul li:hover>a, .main-navigation ul li.current-menu-item ul li a:hover {
+    color: #cf5f42;
+}
