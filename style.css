@@ -290,6 +290,46 @@ a#scroll-up:hover {
     color: #099eda;
 }
 
+.page-template-docmedicale .liste-docmedicale img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-docmedicale .liste-docmedicale video {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-docmedicale .liste-docmedicale .entry-title {
+    color: #099eda;
+}
+
+.page-template-docmedicale .liste-docmedicale a {
+    color: #099eda;
+}
+
+.page-template-docmedicale .header-post-title-container {
+    background-color: #099eda;
+}
+
+.page-template-docmedicale .liste-docmedicale a:hover {
+    color: #099eda;
+    text-decoration: none;
+}
+
+.page-template-docmedicale .liste-docmedicale {
+    margin-bottom: 30px;
+    padding: 100px;
+}
+
 .page-template-soins #content {
     padding: 50px;
 }
@@ -302,6 +342,51 @@ a#scroll-up:hover {
     color: #9fad23;
 }
 
+.page-template-soins .liste-soins img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-soins .liste-soins video {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-soins .liste-soins .entry-title {
+    color: #9fad23;
+}
+
+.page-template-soins .liste-soins a {
+    color: #9fad23;
+}
+
+.page-template-soins .header-post-title-container {
+    background-color: #9fad23;
+}
+
+.page-template-soins .liste-soins a:hover {
+    color: #9fad23;
+    text-decoration: none;
+}
+
+.page-template-soins .liste-soins {
+    margin-bottom: 30px;
+    padding: 100px;
+}
+
+.page-template-recettes .liste-recettes {
+    padding: 50px;
+    padding: 100px;
+}
+
 .page-template-recettes #content {
     padding: 50px;
 }
@@ -312,6 +397,46 @@ a#scroll-up:hover {
 
 .page-template-recettes #content a {
     color: #ecab00;
+}
+
+.page-template-recettes .liste-recettes img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-recettes .liste-recettes video {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-recettes .liste-recettes .entry-title {
+    color: #ecab00;
+}
+
+.page-template-recettes .liste-recettes a {
+    color: #ecab00;
+}
+
+.page-template-recettes .header-post-title-container {
+    background-color: #ecab00;
+}
+
+.page-template-recettes .liste-recettes a:hover {
+    color: #ecab00;
+    text-decoration: none;
+}
+
+.page-template-recettes .liste-recettes {
+    margin-bottom: 30px;
+    padding: 100px;
 }
 
 .page-template-intervenants .intervenant .entry-title {
@@ -402,6 +527,45 @@ a#scroll-up:hover {
     margin-bottom: 30px;
 }
 
+.page-template-docmedicale .liste-docmecdicale img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-docmedicale .liste-docmecdicale video {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-docmedicale .liste-docmecdicale .entry-title {
+    color: #099eda;
+}
+
+.page-template-docmedicale .liste-docmecdicale a {
+    color: #099eda;
+}
+
+.page-template-docmedicale .header-post-title-container {
+    background-color: #099eda;
+}
+
+.page-template-docmedicale .liste-docmecdicale a:hover {
+    color: #099eda;
+    text-decoration: none;
+}
+
+.page-template-docmedicale .liste-docmecdicale {
+    margin-bottom: 30px;
+}
+
 .search article {
     margin-bottom: 30px;
 }
@@ -438,6 +602,39 @@ a#scroll-up:hover {
 }
 
 .page-template-savoir-plus .liste-en-savoir-plus {
+    margin-bottom: 30px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.page-template-documentaires .liste-documentaires img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-documentaires .liste-documentaires .entry-title {
+    color: #098dda;
+}
+
+.page-template-documentaires .liste-documentaires a {
+    color: #098dda;
+    text-align: center;
+}
+
+.page-template-documentaires .header-post-title-container {
+    background-color: #098dda;
+}
+
+.page-template-documentaires .liste-documentaires a:hover {
+    color: #098dda;
+    text-decoration: none;
+}
+
+.page-template-documentaires .liste-documentaires {
     margin-bottom: 30px;
     padding: 100px 0;
     text-align: center;

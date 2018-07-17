@@ -19,7 +19,7 @@ do_action('ample_before_body_content');?>
                 <div class="row">
                     <?php $loop = new WP_Query(array('post_type' => 'post_reseau_sante', 'posts_per_page' => 10, 'paged' => $paged));?>
                     <?php while ($loop->have_posts()): $loop->the_post();?>
-                        <article class="reseaux_sante col-4">
+                        <article class="reseaux_sante col-12 col-sm-3">
                             <?php if (has_post_thumbnail()) {
                                     the_post_thumbnail();
                                 } else {

@@ -5,55 +5,44 @@
  * @package ThemeGrill
  * @subpackage Ample
  * @since Ample 0.1
- * 
+ *
  * Template name: Soins
  */
 
 get_header();
-do_action( 'ample_before_body_content' ); ?>
 
-<div class="single-page soins clearfix">
-		<div class="inner-wrap">
-			<div id="primary">
-				<div id="content">
+do_action('ample_before_body_content');?>
 
-					<?php while ( have_posts() ) : the_post(); ?>
+   <div class="single-page liste-soins clearfix">
+        <div class="inner-wrap">
+            <div class="container">
+                <div class="row">
+					<?php $loop = new WP_Query(array('post_type' => 'soins', 'posts_per_page' => 10, 'paged' => $paged));?>
+                    <?php while ($loop->have_posts()): $loop->the_post();?>
+			                        <article class="recettes col-12 col-sm-3">
 
-						<?php get_template_part( 'content', 'single' ); ?>
+										<?php
+											$value = get_field('image');
+											$fichier = get_field('fichier');
+											$video = get_field('video');
+											if (!empty($value)) {
+												echo '<figure class="soins"><a href="' . get_field('image') . '"><img class="photo" src="' . get_field('image') . '"><figcaption>' . get_field('nom_de_image') . '</figcaption></figure>';
+											} elseif (!empty($fichier)) {
+											echo '<figure class="soins"><a href="' . get_field('fichier') . '"><img class="vignette" src="' . get_stylesheet_directory_uri() . '/images/pdf_logo.png"><figcaption>' . get_field('nom_du_fichier') . '</figcaption></figure>';
+										} elseif (!empty($video)) {
+											echo '<figure class="soins"><a href="' . get_field('video') . '"><video class="video" controls><source src="' . get_field('video') . '"></video><figcaption>' . get_field('nom_de_video') . '</figcaption></figure>';
+										}
+										?>
 
-						<?php get_template_part( 'navigation', 'single' ); ?>
-
-						<?php if ( ( ample_option( 'ample_author_bio_setting', 0 ) == 1 ) && ( get_the_author_meta( 'description' ) ) ) { ?>
-							<div class="author-box clearfix">
-								<div class="author-img"><?php echo get_avatar( get_the_author_meta( 'user_email' ), '100' ); ?></div>
-								<div class="author-description-wrapper">
-									<h4 class="author-name"><?php the_author_meta( 'display_name' ); ?></h4>
-
-									<p class="author-description"><?php the_author_meta( 'description' ); ?></p>
-								</div>
-							</div>
-						<?php } ?>
-
-						<?php if ( ample_option( 'ample_related_posts_setting', 0 ) == 1 ) {
-							get_template_part( 'inc/related-posts' );
-						} ?>
-
-						<?php
-							do_action( 'ample_before_comments_template' );
-							// If comments are open or we have at least one comment, load up the comment template
-							if ( comments_open() || '0' != get_comments_number() )
-								comments_template();
-							do_action ( 'ample_after_comments_template' );
-						?>
-					<?php endwhile; ?>
+	                            <div class="entry-content">
+	                                <?php the_content();?>
+	                            </div>
+	                        </article>
+		                <?php endwhile;?>
                 </div>
             </div>
-        </div>
-    </div>
-           
-         
-<?php do_action( 'ample_after_body_content' );
+        </div><!-- .inner-wrap -->
+    </div><!-- .single-page -->
 
-
-
-get_footer(); ?>
+   <?php do_action('ample_after_body_content');
+get_footer();?>

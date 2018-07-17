@@ -6,14 +6,14 @@
  * @subpackage Ample
  * @since Ample 0.1
  *
- * Template name: En savoirs plus
+ * Template name: Documentaires
  */
 
 get_header();
 
 do_action('ample_before_body_content');?>
 
-   <div class="single-page liste-en-savoir-plus clearfix">
+   <div class="single-page liste-documentaires clearfix">
         <div class="inner-wrap">
             <div class="container">
                 <?php $pages = get_pages(array('child_of' => get_the_ID()));?>

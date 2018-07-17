@@ -15,11 +15,11 @@ do_action('ample_before_body_content');?>
 
    <div class="single-page liste-partenaires clearfix">
         <div class="inner-wrap">
-            <divclass="container">
+            <div class="container">
                 <div class="row">
                     <?php $loop = new WP_Query(array('post_type' => 'post_partenaires', 'posts_per_page' => 10, 'paged' => $paged));?>
                     <?php while ($loop->have_posts()): $loop->the_post();?>
-                        <article class="partenaire col-4">
+                        <article class="partenaire col-12 col-sm-3">
                             <?php if (has_post_thumbnail()) {
                                     the_post_thumbnail();
                                 } else {
