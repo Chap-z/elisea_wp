@@ -5,39 +5,16 @@
  Template:     ample
 */
 
-.main-navigation ul.menu>li.current-menu-item,
-.main-navigation ul.menu>li.current-menu-ancestor,
-.main-navigation .menu>ul>li.current_page_item,
-.main-navigation .menu>ul>li.current_page_ancestor,
-.main-navigation ul.menu>li:hover,
-.main-navigation ul.menu>li.focus,
-.main-navigation .menu>ul>li:hover,
-.main-navigation .menu>ul>li.focus .menu-home {
-    border-top: 2px solid #cf5f42;
+.main-navigation ul.menu>li.current-menu-item, .main-navigation ul.menu>li.current-menu-ancestor, .main-navigation .menu>ul>li.current_page_item, .main-navigation .menu>ul>li.current_page_ancestor, .main-navigation ul.menu>li:hover, .main-navigation ul.menu>li.focus, .main-navigation .menu>ul>li:hover, .main-navigation .menu>ul>li.focus .menu-home {
+    border-top: 2px solid #f08223;
 }
 
-.main-navigation a:hover,
-.main-navigation ul li.current-menu-item a,
-.main-navigation ul li.current-menu-item a:after,
-.main-navigation ul li.current-menu-ancestor a,
-.main-navigation ul li.current-menu-ancestor a:after,
-.main-navigation ul li.current_page_item a:after,
-.main-navigation ul li.current_page_item a,
-.main-navigation ul li.current_page_ancestor a,
-.main-navigation ul li.current_page_ancestor a:after,
-.main-navigation ul li:hover>a,
-.main-navigation ul li.focus>a,
-.main-navigation li.menu-item-has-children:hover>a:after,
-.main-navigation li.page_item_has_children:hover>a:after,
-.main-navigation ul li.focus.menu-item-has-children>a:after,
-.main-navigation ul li.focus.page_item_has_children>a:after,
-.main-navigation ul.menu li.current-menu-ancestor ul li.current-menu-item>a {
-    color: #cf5f42;
+.main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current-menu-item a:after, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current-menu-ancestor a:after, .main-navigation ul li.current_page_item a:after, .main-navigation ul li.current_page_item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current_page_ancestor a:after, .main-navigation ul li:hover>a, .main-navigation ul li.focus>a, .main-navigation li.menu-item-has-children:hover>a:after, .main-navigation li.page_item_has_children:hover>a:after, .main-navigation ul li.focus.menu-item-has-children>a:after, .main-navigation ul li.focus.page_item_has_children>a:after, .main-navigation ul.menu li.current-menu-ancestor ul li.current-menu-item>a {
+    color: #f08223;
 }
 
-.slide-prev,
-.slide-next {
-    background-color: #cf5f42;
+.slide-prev, .slide-next {
+    background-color: #f08223;
 }
 
 #header-left-section {
@@ -46,22 +23,20 @@
 
 #site-title a:hover {
     padding-top: 4px;
-    color: #cf5f42;
+    color: #f08223;
 }
 
 #site-title {
     padding-top: 4px;
-    color: #cf5f42;
+    color: #f08223;
 }
 
-.fa.search-top {
-    color: #cf5f42;
+fa .fa-search, .search-top {
+    color: #f08223;
 }
 
-.main-navigation ul li ul li a:hover,
-.main-navigation ul li ul li:hover>a,
-.main-navigation ul li.current-menu-item ul li a:hover {
-    color: #cf5f42;
+.main-navigation ul li ul li a:hover, .main-navigation ul li ul li:hover>a, .main-navigation ul li.current-menu-item ul li a:hover {
+    color: #f08223;
 }
 
 .menu-toggle:before {
@@ -69,5 +44,428 @@
 }
 
 .sub-toggle {
-    background-color: #cf5f42;
+    background-color: #f08223;
 }
+
+.ample-button, input[type="reset"], input[type="button"], input[type="submit"], button {
+    background-color: #f08223;
+}
+
+#text-5 {
+    background-color: #f08223;
+    padding: 50px;
+    margin-top: -60px;
+}
+
+#text-5 .widget-title, #text-5 h1, #text-5 h2, #text-5 h3, #text-5 h4 {
+    color: #ffffff;
+}
+
+.textwidget p {
+    color: #ffffff;
+}
+
+.read-btn a {
+    border: 1px solid #a0519a;
+}
+
+.read-btn a:hover {
+    background-color: #a0519a;
+}
+
+.single-post-content .entry-title a:hover {
+    color: #a0519a;
+}
+
+.single-post-content a {
+    color: #a0519a;
+}
+
+.fa.search-top, .fa-search {
+    color: #f08223;
+}
+
+.copyright-info {
+    float: none;
+    text-align: center;
+}
+
+a#scroll-up:hover {
+    background-color: #f08223;
+}
+
+#colophon .copyright-info a:hover {
+    color: #f08223;
+}
+
+.blog .header-post-title-container {
+    background-color: #a0519a;
+}
+
+.blog .single-page .fa {
+    color: #a0519a;
+}
+
+.blog .entry-meta a:hover, .blog .entry-title a:hover {
+    color: #a0519a;
+}
+
+.blog .btn-default-th {
+    color: #a0519a;
+}
+
+.blog #secondary .widget li a:hover, #tertiary .widget li ahover {
+    text-decoration: none;
+}
+
+.blog #secondary .widget li a, #tertiary .widget li a {
+    color: #a0519a;
+}
+
+.archive .header-post-title-container {
+    background-color: #a0519a;
+}
+
+.archive .single-page .fa {
+    color: #a0519a;
+}
+
+.archive .entry-meta a:hover, .archive .entry-title a:hover {
+    color: #a0519a;
+}
+
+.archive .btn-default-th {
+    color: #a0519a;
+}
+
+.archive #secondary .widget li a:hover, #tertiary .widget li ahover {
+    text-decoration: none;
+}
+
+.archive #secondary .widget li a, #tertiary .widget li a {
+    color: #a0519a;
+}
+
+.archive .header-post-title-container {
+    background-color: #a0519a;
+}
+
+.single-page .single-page .fa {
+    color: #a0519a;
+}
+
+.single-page .entry-meta a:hover, .blog .entry-title a:hover {
+    color: #a0519a;
+}
+
+.single-page .btn-default-th {
+    color: #a0519a;
+}
+
+.single-page #secondary .widget li a:hover, #tertiary .widget li ahover {
+    text-decoration: none;
+}
+
+.single-page #secondary .widget li a, #tertiary .widget li a, .single-page .post-edit-link {
+    color: #a0519a;
+}
+
+.single-page .previous a, .next a {
+    color: #a0519a;
+}
+
+.single-page .content a {
+    color: #a0519a;
+}
+
+.single-page #comments fa, .single-page #comments a, .single-page #comments a:before {
+    color: #a0519a;
+}
+
+.single-page #comments i {
+    color: #a0519a;
+}
+
+.main-wrapper .post .fa {
+    color: #a0519a;
+}
+
+.main-wrapper .post .ample-button, input[type="reset"], input[type="button"], input[type="submit"], button {
+    background-color: #a0519a;
+}
+
+.single-post .header-post-title-container {
+    background-color: #a0519a;
+}
+
+.single-post .entry-meta a:hover, .blog .entry-title a:hover {
+    color: #a0519a;
+}
+
+.single-post .btn-default-th {
+    color: #a0519a;
+}
+
+.single-post #secondary .widget li a:hover, #tertiary .widget li ahover {
+    text-decoration: none;
+}
+
+.single-post #secondary .widget li a, #tertiary .widget li a, .single-post .post-edit-link {
+    color: #a0519a;
+}
+
+.single-post .previous a, .next a {
+    color: #a0519a;
+}
+
+.single-post .content a {
+    color: #a0519a;
+}
+
+.single-post #comments fa, .single-post #comments a, .single-post #comments a:before {
+    color: #a0519a;
+}
+
+.single-post #comments i {
+    color: #a0519a;
+}
+
+.page #content {
+    padding: 50px;
+}
+
+.page .header-post-title-container {
+    background-color: #56c5a0;
+}
+
+.page #content a {
+    color: #56c5a0;
+}
+
+.page-template-template-contact .header-post-title-container {
+    background-color: #c5567b;
+}
+
+#evf-form-5 input, #evf-form-5 textarea {
+    border: none;
+    border-bottom: 2px solid #c5567b;
+}
+
+#evf-form-5 button {
+    background-color: #c5567b;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.search .header-post-title-container {
+    background-color: #a0519a;
+}
+
+.search .single-page {
+    padding: 20px 0 50px 0;
+}
+
+.page-template-docmedicale .header-post-title-container {
+    background-color: #099eda;
+}
+
+.page-template-soins .header-post-title-container {
+    background-color: #9fad23;
+}
+
+.page-template-recettes .header-post-title-container {
+    background-color: #ecab00;
+}
+
+.page-template-docmedicale #content {
+    padding: 50px;
+}
+
+.page-template-docmedicale .header-post-title-container {
+    background-color: #099eda;
+}
+
+.page-template-docmedicale #content a {
+    color: #099eda;
+}
+
+.page-template-soins #content {
+    padding: 50px;
+}
+
+.page-template-soins .header-post-title-container {
+    background-color: #9fad23;
+}
+
+.page-template-soins #content a {
+    color: #9fad23;
+}
+
+.page-template-recettes #content {
+    padding: 50px;
+}
+
+.page-template-recettes .header-post-title-container {
+    background-color: #ecab00;
+}
+
+.page-template-recettes #content a {
+    color: #ecab00;
+}
+
+.page-template-intervenants .intervenant .entry-title {
+    color: #ecab00;
+}
+
+.page-template-intervenants .intervenant a {
+    color: #ecab00;
+}
+
+.page-template-intervenants .header-post-title-container {
+    background-color: #ecab00;
+}
+
+.page-template-intervenants .intervenant a:hover {
+    color: #ecab00;
+    text-decoration: none;
+}
+
+.page-template-intervenants .intervenant {
+    margin-bottom: 30px;
+}
+
+.page-template-intervenants .intervenant img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+}
+
+.page-template-partenaires .partenaire img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+}
+
+.page-template-partenaires .partenaire .entry-title {
+    color: #9fad23;
+}
+
+.page-template-partenaires .partenaire a {
+    color: #9fad23;
+}
+
+.page-template-partenaires .header-post-title-container {
+    background-color: #9fad23;
+}
+
+.page-template-partenaires .partenaire a:hover {
+    color: #9fad23;
+    text-decoration: none;
+}
+
+.page-template-partenaires .partenaire {
+    margin-bottom: 30px;
+}
+
+.page-template-reseaux_sante .reseaux_sante img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-reseaux_sante .reseaux_sante .entry-title {
+    color: #099eda;
+}
+
+.page-template-reseaux_sante .reseaux_sante a {
+    color: #099eda;
+}
+
+.page-template-reseaux_sante .header-post-title-container {
+    background-color: #099eda;
+}
+
+.page-template-reseaux_sante .reseaux_sante a:hover {
+    color: #099eda;
+    text-decoration: none;
+}
+
+.page-template-reseaux_sante .reseaux_sante {
+    margin-bottom: 30px;
+}
+
+.search article {
+    margin-bottom: 30px;
+}
+
+.search article img {
+    display: none;
+}
+
+.page-template-savoir-plus .liste-en-savoir-plus img {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.page-template-savoir-plus .liste-en-savoir-plus .entry-title {
+    color: #da5609;
+}
+
+.page-template-savoir-plus .liste-en-savoir-plus a {
+    color: #da5609;
+    text-align: center;
+}
+
+.page-template-savoir-plus .header-post-title-container {
+    background-color: #da5609;
+}
+
+.page-template-savoir-plus .liste-en-savoir-plus a:hover {
+    color: #da5609;
+    text-decoration: none;
+}
+
+.page-template-savoir-plus .liste-en-savoir-plus {
+    margin-bottom: 30px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* 
+.list {
+    display: inline-block;
+}
+
+figcaption {
+    color: black;
+    font-size: 24px;
+}
+
+.vignette {
+    width: 60%;
+    height: 60%;
+    margin-bottom: 0;
+}
+
+.photo {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+figure {
+    margin-bottom: 15%;
+} */
