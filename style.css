@@ -5,15 +5,38 @@
  Template:     ample
 */
 
-.main-navigation ul.menu>li.current-menu-item, .main-navigation ul.menu>li.current-menu-ancestor, .main-navigation .menu>ul>li.current_page_item, .main-navigation .menu>ul>li.current_page_ancestor, .main-navigation ul.menu>li:hover, .main-navigation ul.menu>li.focus, .main-navigation .menu>ul>li:hover, .main-navigation .menu>ul>li.focus .menu-home {
+.main-navigation ul.menu>li.current-menu-item,
+.main-navigation ul.menu>li.current-menu-ancestor,
+.main-navigation .menu>ul>li.current_page_item,
+.main-navigation .menu>ul>li.current_page_ancestor,
+.main-navigation ul.menu>li:hover,
+.main-navigation ul.menu>li.focus,
+.main-navigation .menu>ul>li:hover,
+.main-navigation .menu>ul>li.focus .menu-home {
     border-top: 2px solid #f08223;
 }
 
-.main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current-menu-item a:after, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current-menu-ancestor a:after, .main-navigation ul li.current_page_item a:after, .main-navigation ul li.current_page_item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current_page_ancestor a:after, .main-navigation ul li:hover>a, .main-navigation ul li.focus>a, .main-navigation li.menu-item-has-children:hover>a:after, .main-navigation li.page_item_has_children:hover>a:after, .main-navigation ul li.focus.menu-item-has-children>a:after, .main-navigation ul li.focus.page_item_has_children>a:after, .main-navigation ul.menu li.current-menu-ancestor ul li.current-menu-item>a {
+.main-navigation a:hover,
+.main-navigation ul li.current-menu-item a,
+.main-navigation ul li.current-menu-item a:after,
+.main-navigation ul li.current-menu-ancestor a,
+.main-navigation ul li.current-menu-ancestor a:after,
+.main-navigation ul li.current_page_item a:after,
+.main-navigation ul li.current_page_item a,
+.main-navigation ul li.current_page_ancestor a,
+.main-navigation ul li.current_page_ancestor a:after,
+.main-navigation ul li:hover>a,
+.main-navigation ul li.focus>a,
+.main-navigation li.menu-item-has-children:hover>a:after,
+.main-navigation li.page_item_has_children:hover>a:after,
+.main-navigation ul li.focus.menu-item-has-children>a:after,
+.main-navigation ul li.focus.page_item_has_children>a:after,
+.main-navigation ul.menu li.current-menu-ancestor ul li.current-menu-item>a {
     color: #f08223;
 }
 
-.slide-prev, .slide-next {
+.slide-prev,
+.slide-next {
     background-color: #f08223;
 }
 
@@ -31,11 +54,14 @@
     color: #f08223;
 }
 
-fa .fa-search, .search-top {
+fa .fa-search,
+.search-top {
     color: #f08223;
 }
 
-.main-navigation ul li ul li a:hover, .main-navigation ul li ul li:hover>a, .main-navigation ul li.current-menu-item ul li a:hover {
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover>a,
+.main-navigation ul li.current-menu-item ul li a:hover {
     color: #f08223;
 }
 
@@ -47,7 +73,11 @@ fa .fa-search, .search-top {
     background-color: #f08223;
 }
 
-.ample-button, input[type="reset"], input[type="button"], input[type="submit"], button {
+.ample-button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"],
+button {
     background-color: #f08223;
 }
 
@@ -57,7 +87,11 @@ fa .fa-search, .search-top {
     margin-top: -60px;
 }
 
-#text-5 .widget-title, #text-5 h1, #text-5 h2, #text-5 h3, #text-5 h4 {
+#text-5 .widget-title,
+#text-5 h1,
+#text-5 h2,
+#text-5 h3,
+#text-5 h4 {
     color: #ffffff;
 }
 
@@ -81,7 +115,8 @@ fa .fa-search, .search-top {
     color: #a0519a;
 }
 
-.fa.search-top, .fa-search {
+.fa.search-top,
+.fa-search {
     color: #f08223;
 }
 
@@ -106,7 +141,8 @@ a#scroll-up:hover {
     color: #a0519a;
 }
 
-.blog .entry-meta a:hover, .blog .entry-title a:hover {
+.blog .entry-meta a:hover,
+.blog .entry-title a:hover {
     color: #a0519a;
 }
 
@@ -114,11 +150,13 @@ a#scroll-up:hover {
     color: #a0519a;
 }
 
-.blog #secondary .widget li a:hover, #tertiary .widget li ahover {
+.blog #secondary .widget li a:hover,
+#tertiary .widget li ahover {
     text-decoration: none;
 }
 
-.blog #secondary .widget li a, #tertiary .widget li a {
+.blog #secondary .widget li a,
+#tertiary .widget li a {
     color: #a0519a;
 }
 
@@ -130,7 +168,8 @@ a#scroll-up:hover {
     color: #a0519a;
 }
 
-.archive .entry-meta a:hover, .archive .entry-title a:hover {
+.archive .entry-meta a:hover,
+.archive .entry-title a:hover {
     color: #a0519a;
 }
 
@@ -138,11 +177,13 @@ a#scroll-up:hover {
     color: #a0519a;
 }
 
-.archive #secondary .widget li a:hover, #tertiary .widget li ahover {
+.archive #secondary .widget li a:hover,
+#tertiary .widget li ahover {
     text-decoration: none;
 }
 
-.archive #secondary .widget li a, #tertiary .widget li a {
+.archive #secondary .widget li a,
+#tertiary .widget li a {
     color: #a0519a;
 }
 
@@ -154,7 +195,8 @@ a#scroll-up:hover {
     color: #a0519a;
 }
 
-.single-page .entry-meta a:hover, .blog .entry-title a:hover {
+.single-page .entry-meta a:hover,
+.blog .entry-title a:hover {
     color: #a0519a;
 }
 
@@ -162,15 +204,19 @@ a#scroll-up:hover {
     color: #a0519a;
 }
 
-.single-page #secondary .widget li a:hover, #tertiary .widget li ahover {
+.single-page #secondary .widget li a:hover,
+#tertiary .widget li ahover {
     text-decoration: none;
 }
 
-.single-page #secondary .widget li a, #tertiary .widget li a, .single-page .post-edit-link {
+.single-page #secondary .widget li a,
+#tertiary .widget li a,
+.single-page .post-edit-link {
     color: #a0519a;
 }
 
-.single-page .previous a, .next a {
+.single-page .previous a,
+.next a {
     color: #a0519a;
 }
 
@@ -178,7 +224,9 @@ a#scroll-up:hover {
     color: #a0519a;
 }
 
-.single-page #comments fa, .single-page #comments a, .single-page #comments a:before {
+.single-page #comments fa,
+.single-page #comments a,
+.single-page #comments a:before {
     color: #a0519a;
 }
 
@@ -190,7 +238,11 @@ a#scroll-up:hover {
     color: #a0519a;
 }
 
-.main-wrapper .post .ample-button, input[type="reset"], input[type="button"], input[type="submit"], button {
+.main-wrapper .post .ample-button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"],
+button {
     background-color: #a0519a;
 }
 
@@ -198,7 +250,8 @@ a#scroll-up:hover {
     background-color: #a0519a;
 }
 
-.single-post .entry-meta a:hover, .blog .entry-title a:hover {
+.single-post .entry-meta a:hover,
+.blog .entry-title a:hover {
     color: #a0519a;
 }
 
@@ -206,15 +259,19 @@ a#scroll-up:hover {
     color: #a0519a;
 }
 
-.single-post #secondary .widget li a:hover, #tertiary .widget li ahover {
+.single-post #secondary .widget li a:hover,
+#tertiary .widget li ahover {
     text-decoration: none;
 }
 
-.single-post #secondary .widget li a, #tertiary .widget li a, .single-post .post-edit-link {
+.single-post #secondary .widget li a,
+#tertiary .widget li a,
+.single-post .post-edit-link {
     color: #a0519a;
 }
 
-.single-post .previous a, .next a {
+.single-post .previous a,
+.next a {
     color: #a0519a;
 }
 
@@ -222,7 +279,9 @@ a#scroll-up:hover {
     color: #a0519a;
 }
 
-.single-post #comments fa, .single-post #comments a, .single-post #comments a:before {
+.single-post #comments fa,
+.single-post #comments a,
+.single-post #comments a:before {
     color: #a0519a;
 }
 
@@ -246,12 +305,17 @@ a#scroll-up:hover {
     background-color: #c5567b;
 }
 
-#evf-form-5 input, #evf-form-5 textarea {
+.page-template-template-contact .wpcf7-form input,
+.page-template-template-contact textarea {
     border: none;
     border-bottom: 2px solid #c5567b;
+    background: none;
 }
 
-#evf-form-5 button {
+.page-template-template-contact .wpcf7-form input[type="reset"],
+.page-template-template-contact .wpcf7-form input[type="button"],
+.page-template-template-contact .wpcf7-form input[type="submit"],
+.page-template-template-contact .wpcf7-form button {
     background-color: #c5567b;
     margin-top: 30px;
     text-transform: uppercase;
@@ -616,6 +680,15 @@ a#scroll-up:hover {
     min-height: 150px;
 }
 
+.page-template-documentaires .liste-documentaires video {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+    max-height: 150px;
+    min-height: 150px;
+}
+
 .page-template-documentaires .liste-documentaires .entry-title {
     color: #098dda;
 }
@@ -640,29 +713,107 @@ a#scroll-up:hover {
     text-align: center;
 }
 
-/* 
-.list {
-    display: inline-block;
+/* .page-template-ateliers .header-post-title-container {
+    background-color: #7c51a0;
 }
 
-figcaption {
-    color: black;
-    font-size: 24px;
+.page-template-ateliers #content .entry-content a:hover {
+    color: #7c51a0;
 }
 
-.vignette {
-    width: 60%;
-    height: 60%;
-    margin-bottom: 0;
-}
-
-.photo {
-    width: 250px;
-    height: 150px;
-    margin-bottom: 0;
-    padding: 15px;
-}
-
-figure {
-    margin-bottom: 15%;
+.page-template-ateliers #content .entry-content a {
+    color: #7c51a0;
 } */
+
+.post-type-archive-tribe_events #tribe-events-content-wrapper {
+    padding: 50px;
+}
+
+.post-type-archive-tribe_events .header-post-title-container {
+    display: none;
+}
+
+.page-template-month img {
+    margin-bottom: 0;
+}
+
+.page-template-month figure {
+    margin-bottom: 30px;
+}
+
+#tribe-events-pg-template #tribe-events-content {
+    padding: 50px;
+}
+
+.search-wrap button {
+    border-radius: 0;
+    color: #fff;
+    line-height: 35px;
+    margin-left: -2px;
+    margin-bottom: 0;
+    padding: 0 9px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.page-numbers{
+        display: flex;
+        justify-content: flex-end;
+}
+
+.page-numbers  li{
+    margin-right : 10px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #tribe-events-pg-template #tribe-events-content {
+        padding: 0;
+    }
+    #tribe-events-pg-template #tribe-events-content-wrapper {
+        padding: 0;
+    }
+    #site-title a {
+        font-size: 20px;
+        text-align: center;
+    }
+    .page-template-documentaires .liste-documentaires {
+        margin-bottom: 30px;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .page-template-soins .liste-soins {
+        margin-bottom: 30px;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .page-template-recettes .liste-recettes {
+        margin-bottom: 30px;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .page-template-docmedicale .liste-docmedicale {
+        margin-bottom: 30px;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .page-template-savoir-plus .liste-en-savoir-plus {
+        margin-bottom: 30px;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .page #content {
+        padding: 0px;
+    }
+    .page-template-template-contact .wpcf7-form input[type="submit"] {
+        display : block;
+        margin : auto;
+    }
+
+    .menu-toggle{
+        right : 58px;
+    }
+}

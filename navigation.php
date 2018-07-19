@@ -9,41 +9,51 @@
 ?>
 
 <?php
-if (is_archive() || is_home() || is_search()) {
-    /**
-     * Checking WP-PageNavi plugin exist
-     */
-    if (function_exists('wp_pagenavi')):
-        wp_pagenavi();
+        
+        global $loop;
+        global $current;
+        global $paged;
+        global $wp_rewrite;
 
-    else:
-        global $wp_query;
-        if ($wp_query->max_num_pages > 1):
+        assert($loop->max_num_pages > 1);
+
+        $pagination = array(
+            'base' => @add_query_arg('page', '%#%'),
+            'format' => '',
+            'total' => $loop->max_num_pages,
+            'current' => $paged,
+            'show_all' => false,
+            'end_size' => 1,
+            'mid_size' => 2,
+            'type' => 'list',
+            'next_text' => '>',
+            'prev_text' => '<',
+        );
+
+
+
+        if ($loop->max_num_pages > 1):
+
+
+            if ($wp_rewrite->using_permalinks()) {
+                $pagination['base'] = user_trailingslashit(trailingslashit(remove_query_arg('s', get_pagenum_link(1))) . 'page/%#%/', 'paged');
+            }
+
+            if (!empty($wp_query->query_vars['s'])) {
+                $pagination['add_args'] = array('s' => str_replace(' ', '+', get_query_var('s')));
+            }
+
+            echo str_replace('page/1/', '', paginate_links($pagination));
+
+
+
         ?>
-	      <ul class="default-wp-page clearfix">
-	         <li class="previous"><?php next_posts_link(__('&laquo; Précèdent', ''));?></li>
-	         <li class="next"><?php previous_posts_link(__('Suivant &raquo;', ''));?></li>
-	      </ul>
+        
+
 	      <?php
 endif;
-    endif;
-}
 
-if (is_single()) {
-    if (is_attachment()) {
-        ?>
-      <ul class="default-wp-page clearfix">
-         <li class="previous"><?php previous_image_link(false, __('&larr; Précèdent', ''));?></li>
-         <li class="next"><?php next_image_link(false, __('Suivant &rarr;', ''));?></li>
-      </ul>
-   <?php
-} else {
-        ?>
-      <ul class="default-wp-page clearfix">
-         <li class="previous"><?php previous_post_link('%link', '<span class="meta-nav">' . _x('&larr;', 'Post précèdent', '') . '</span> %title');?></li>
-         <li class="next"><?php next_post_link('%link', '%title <span class="meta-nav">' . _x('&rarr;', 'Post suivant', '') . '</span>');?></li>
-      </ul>
-   <?php
-}
-}
+
+
+
 ?>

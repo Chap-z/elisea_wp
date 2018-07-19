@@ -49,3 +49,4 @@ function recent_posts_function()
     wp_reset_query();
     return $return_string;
 }
+
